@@ -1,0 +1,11 @@
+canvas{
+    border: 5px solid white ;
+    border-radius:20px ;
+    animation-name:badminton ;
+    animation-duration:4s ;
+    animation-iteration-count: infinite;
+}
+@keyframes badminton {
+    from{box-shadow: 10px 10px 30px olivedrab;}
+    to{box-shadow: 10px 10px 30px violet;}
+}
